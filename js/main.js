@@ -16,6 +16,7 @@ const swiper = new Swiper('.swiper', {
             swiper.changeDirection(getDirection());
         },
     },
+    allowTouchMove: false,
 });
 
 function getDirection() {
